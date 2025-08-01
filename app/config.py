@@ -1,3 +1,5 @@
+# app/config.py
+
 import os
 import platform
 import logging
@@ -24,6 +26,9 @@ class Settings(BaseSettings):
 
     # Groq API Key
     GROQ_API_KEY: str
+    
+    # --- ADD THIS LINE ---
+    ACCESS_TOKEN_EXPIRE_MINUTES: int
 
     class Config:
         env_file = ".env"

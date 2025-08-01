@@ -16,7 +16,8 @@ from email.mime.text import MIMEText
 from email.mime.application import MIMEApplication
 
 from app.config import Settings
-from app.schemas import ProcessingResult
+from app.schemas.app_schemas import ProcessingResult
+
 
 logger = logging.getLogger(__name__)
 

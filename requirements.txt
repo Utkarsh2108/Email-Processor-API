@@ -1,10 +1,15 @@
 fastapi
 uvicorn[standard]
-groq
-PyMuPDF
-beautifulsoup4
-python-dotenv
+pydantic
 pydantic-settings
+python-dotenv
+sqlalchemy
+passlib[bcrypt]
+python-jose[cryptography]
+groq
+beautifulsoup4
+lxml
+fitz # PyMuPDF
 pytesseract
 Pillow
-fastapi[standard]
+python-multipart # For form data/login
