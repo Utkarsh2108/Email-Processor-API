@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+groq
+PyMuPDF
+beautifulsoup4
+python-dotenv
+pydantic-settings
+pytesseract
+Pillow
+fastapi[standard]
